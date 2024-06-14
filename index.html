@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script src="https://kit.fontawesome.com/5614c09a5a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="page-title">Lista de tareas</h1>
+        <hr>
+    </header>
+    <div class="control-buttons">
+        <button id="add-button"><i class="fa-solid fa-plus cross-add"></i></button>
+    </div>
+    <div class="tareas">
+        <ul id="tareas-ul">
+            
+            
+        </ul>
+    </div>
+    <dialog class="dialog">
+        <form action="#" class="form-dialog"> 
+            <div class="dialog-content">
+                <div class="title-tarea">
+                    <p class="title">Nombre tarea:</p>
+                    <input type="text" id="input-title">
+                </div>
+                <div class="descripcion-tarea">
+                    <p class="descripcion">Descripcion tarea:</p>
+                    <input type="text" id="input-descripcion">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="add">Aceptar</button>
+                <button id="cancelar">Cancelar</button>
+            </div>
+        </form>
+        
+    </dialog>
+    <script src="main.js"></script>
+</body>
+</html>
